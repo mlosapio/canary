@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Canary",
+  "version": "0.1",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "tabs", "<all_urls>", "webNavigation"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Canary - A website warning"
+  }
+}
+
